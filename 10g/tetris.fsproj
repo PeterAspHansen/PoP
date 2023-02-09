@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="tetris.fsi" />
+    <Compile Include="tetris.fs" />
+    <Compile Include="tetrisApp.fsx" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="DIKU.Canvas" Version="1.0.1" />
+  </ItemGroup>
+
+</Project>

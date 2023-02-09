@@ -1,0 +1,9 @@
+
+Der skrives i terminalen 
+
+
+dotnet run [|"testfile1";"testfile2"|]
+
+
+Jeg kan ikke få testen til at virke :(
+
